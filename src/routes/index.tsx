@@ -50,7 +50,7 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="font-sans antialiased text-[#1D1D1D] bg-white">
+    <div className="font-sans antialiased text-white" style={{ backgroundColor: "#0F1209" }}>
       <StickyNav />
 
       <CinematicHero
